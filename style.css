@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins";
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {}
+
+nav {
+    background-color: rgba(255, 249, 198, 1);
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.gula-test {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navTags {
+    text-decoration: none;
+    color: rgba(22, 22, 22, 1);
+}
+
+.test {
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(255, 70, 70);
+}
+
+.landingpage {
+    background-image: url('./Assets/pizzeria.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-color: darkkhaki;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: rgba(22, 22, 22, 1);
+    margin: 0.5rem 2.5rem 0.5rem 0.5rem;
+    transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 1300px) {
+    nav {
+        background-color: rgba(255, 249, 198, 1);
+    }
+
+ /*    .nav-links {
+        margin-left: 33%;
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: rgba(255, 249, 198, 1);
+        justify-content: space-between;
+    }
+
+    .gula-test {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: rgb(255, 70, 70);
+        margin-left: 5%;
+    }
+
+    .test {
+        display: none;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 10vh;
+        height: 90vh;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: rgba(255, 249, 198, 1);
+        flex-direction: column;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.burgertoggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.burgertoggle .line2 {
+    opacity: 0;
+}
+
+.burgertoggle .line3 {
+    transform: rotate(45deg) translate(-4px, -6px);
+}
