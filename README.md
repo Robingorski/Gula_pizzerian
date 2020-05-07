@@ -1,2 +1,3 @@
-# Gula_pizzerian
-Homepage for a local pizza restaurant
+# Gula Pizzerian
+
+Homepage for a local pizza restaurant.
