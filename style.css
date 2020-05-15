@@ -41,8 +41,12 @@ nav {
     text-transform: uppercase;
 }
 
+.navTags:hover {
+    cursor: pointer;
+}
+
 .navTags {
-    text-decoration: none;
+    text-decoration: underline;
     color: rgba(22, 22, 22, 1);
 }
 
@@ -58,7 +62,7 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    background-color: darkkhaki;
+    /* background-color: white; */
 }
 
 .burger {
@@ -72,6 +76,53 @@ nav {
     margin: 0.5rem 2.5rem 0.5rem 0.5rem;
     transition: all 0.4s ease;
 }
+
+.menu-buttons {
+    height: 20vh;
+    /* width: 99.9vw; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+button {
+    margin-top: 15vh;
+    width: 10rem;
+    height: 2.5rem;
+   /*  background-color: rgba(255, 198, 198, 1); */
+    background-color: rgba(198, 219, 255, 1);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 0px 8px 15px rgba(76, 76, 76, 0.2);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1300px) {
     nav {
@@ -124,6 +175,11 @@ nav {
 
     .burger {
         display: block;
+    }
+
+    .menu-buttons {
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 }
 
