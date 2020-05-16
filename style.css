@@ -12,10 +12,9 @@ html {
     overflow-y: scroll;
 }
 
-body {}
-
 nav {
     background-color: rgba(255, 249, 198, 1);
+    box-shadow: 0px 8px 15px rgba(76, 76, 76, 0.2);
     display: flex;
     align-items: center;
     height: 10vh;
@@ -33,7 +32,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    width: 100vw;
+    /*    width: 100vw; denna kanske skall vara i procent i stället. Måste kollas upp hur det ser ut på desktop!! */
+    width: 40%;
     margin-left: 30%;
     margin-right: 30%;
     font-size: 1.6rem;
@@ -46,6 +46,8 @@ nav {
 }
 
 .navTags {
+    width: 100%;
+    text-align: center;
     text-decoration: underline;
     color: rgba(22, 22, 22, 1);
 }
@@ -54,6 +56,9 @@ nav {
     font-size: 5rem;
     font-weight: 900;
     color: rgb(255, 70, 70);
+    text-align: center;
+    /*  transform: rotate(-10deg); */
+    /* ska transformen vara kvar eller vad tycker "vi"? */
 }
 
 .landingpage {
@@ -79,7 +84,8 @@ nav {
 
 .menu-buttons {
     height: 20vh;
-    /* width: 99.9vw; */
+    position: fixed;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     margin-left: 25%;
@@ -90,7 +96,7 @@ button {
     margin-top: 15vh;
     width: 10rem;
     height: 2.5rem;
-   /*  background-color: rgba(255, 198, 198, 1); */
+    /*  background-color: rgba(255, 198, 198, 1); */
     background-color: rgba(198, 219, 255, 1);
     border: none;
     text-align: center;
@@ -104,10 +110,71 @@ button:hover {
 }
 
 
+/* jag kanske kan köra samma typ av stil här på allting, så att det blir mindre rader kod. (när det kommer till alla meny-sectioner.) */
 
+.meny-kategori {
+    display: flex;
+    justify-content: center;
+}
 
+/* Section Dagens Lunch */
+.dagens_lunch-meny {
+    height: 100vh;
+}
 
+/* Section Pizza */
+.pizza-meny {
+    height: 100vh;
+}
 
+/* Section Grill */
+.grill-meny {
+    height: 100vh;
+}
+
+/* Section Sallader */
+.sallad-meny {
+    height: 100vh;
+}
+
+/* Section Tillbehör */
+.tillbehör-meny {
+    height: 100vh;
+}
+
+/* Footer */
+.footer {
+    height: 33vh;
+    background-color: rgba(255, 249, 198, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.gula-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gula-information_rubrik {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+.google_maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -129,7 +196,18 @@ button:hover {
         background-color: rgba(255, 249, 198, 1);
     }
 
- /*    .nav-links {
+    .test {
+        font-size: 2rem;
+        width: 60vw;
+    }
+
+    .menu-buttons {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    /*    .nav-links {
         margin-left: 33%;
     } */
 }
@@ -177,9 +255,28 @@ button:hover {
         display: block;
     }
 
+    button {
+        width: 6rem;
+        /* Denna behöver ses över. Vet inte om jag kanske ska köra 10 rem om jag fixar ett horizontelt scroll. */
+    }
+
     .menu-buttons {
+        width: 100%;
         margin-left: 0rem;
         margin-right: 0rem;
+    }
+
+
+    .footer {
+        height: 50vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .oppet_tider {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 }
 
