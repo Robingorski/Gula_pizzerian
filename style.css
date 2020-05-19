@@ -7,7 +7,6 @@
 html {
     font-family: "Poppins";
     font-size: 62.5%;
-    scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -33,9 +32,9 @@ nav {
     align-items: center;
     list-style: none;
     /*    width: 100vw; denna kanske skall vara i procent i stället. Måste kollas upp hur det ser ut på desktop!! */
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
     font-size: 1.6rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -46,7 +45,7 @@ nav {
 }
 
 .navTags {
-    width: 100%;
+    width: 35%;
     text-align: center;
     text-decoration: underline;
     color: rgba(22, 22, 22, 1);
@@ -88,14 +87,19 @@ nav {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 button {
+    font-family: "Poppins";
     margin-top: 15vh;
     width: 10rem;
     height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /*  background-color: rgba(255, 198, 198, 1); */
     background-color: rgba(198, 219, 255, 1);
     border: none;
@@ -103,12 +107,14 @@ button {
     text-decoration: none;
     border-radius: 2px;
     box-shadow: 0px 8px 15px rgba(76, 76, 76, 0.2);
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 button:hover {
     cursor: pointer;
 }
-
 
 /* jag kanske kan köra samma typ av stil här på allting, så att det blir mindre rader kod. (när det kommer till alla meny-sectioner.) */
 
@@ -157,18 +163,26 @@ button:hover {
     justify-content: center;
 }
 
+.gula-information_text {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .gula-information_rubrik {
+    margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-a {
-    text-decoration: none;
-    text-transform: none;
+.telefon {
     color: black;
 }
+
+
 
 .google_maps {
     display: flex;
@@ -256,7 +270,8 @@ a {
     }
 
     button {
-        width: 6rem;
+        width: 7rem;
+        font-size: 1.3rem;
         /* Denna behöver ses över. Vet inte om jag kanske ska köra 10 rem om jag fixar ett horizontelt scroll. */
     }
 
