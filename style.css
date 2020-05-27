@@ -118,7 +118,7 @@ button:hover {
 }
 
 /* jag kanske kan köra samma typ av stil här på allting, så att det blir mindre rader kod. (när det kommer till alla meny-sectioner.) */
-
+/* 
 .meny-kategori {
     height: 8vh;
     display: flex;
@@ -126,17 +126,11 @@ button:hover {
     align-items: flex-end;
     text-align: center;
 
-}
+} */
 
 /* Section Dagens Lunch */
 .dagens_lunch-meny {
     height: 100vh;
-    background-color: #95b38b;
-}
-
-/* Section Pizza */
-.pizza-meny {
-    height: 300vh;
 }
 
 .lunch-bakgrund {
@@ -144,6 +138,61 @@ button:hover {
     height: 100vh;
     width: 99.9vw;
 }
+
+.lunch_container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lunch_rubrik{
+   /*  display: flex;
+    justify-content: space-evenly;
+    width: 41vw;
+    align-items: center; */
+}
+
+.test-pris {
+    display: flex;
+    justify-content: flex-start;
+    width: 38vw;
+}
+
+.lunch_rubrik-text {
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(255, 70, 70);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lunch_erbjudande {
+    height: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lunch_erbjudande-text {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.lunch_erbjudande-text_info{
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(255, 70, 70);
+}
+
+/* Section Pizza */
+.pizza-meny {
+    height: 300vh;
+}
+
+
 
 .pizza-bakgrund {
     background-color: rgba(255, 249, 198, 1);
@@ -274,6 +323,18 @@ button:hover {
 .hamburgare_rubrik {
     width: 33vw;
     height: 5vh;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(255, 70, 70);
+}
+
+.vegburgare_rubrik {
+    width: 33vw;
+    height: 3vh;
     margin-bottom: 3rem;
     display: flex;
     align-items: center;

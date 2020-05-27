@@ -14,62 +14,59 @@ var tillbehörknapp = document.getElementById('tillbehör');
 menyknapp.addEventListener('click', () => {
     jump('.pizza-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -175,
     });
 })
 
 gulapizzeria.addEventListener('click', () => {
     jump('.landingpage', {
         duration: 1000,
-        offset: -90,
     });
 })
 
 gulapizzeriamobile.addEventListener('click', () => {
     jump('.landingpage', {
         duration: 1000,
-        offset: -90,
     });
 })
 
 hittaknapp.addEventListener('click', () => {
     jump('.footer', {
         duration: 1000,
-        offset: -90,
     });
 })
 
 lunchknapp.addEventListener('click', () => {
     jump('.dagens_lunch-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -85,
     });
 })
 
 pizzaknapp.addEventListener('click', () => {
     jump('.pizza-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -175,
     });
 })
 
 grillknapp.addEventListener('click', () => {
     jump('.grill-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -175,
     });
 })
 
 salladknapp.addEventListener('click', () => {
     jump('.sallad-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -175,
     });
 })
 
 tillbehörknapp.addEventListener('click', () => {
     jump('.tillbehör-meny', {
         duration: 1000,
-        offset: -90,
+        offset: -175,
     });
 })
