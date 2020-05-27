@@ -139,9 +139,33 @@ button:hover {
     height: 300vh;
 }
 
-.meny-bakgrund {
+.lunch-bakgrund {
+    background-color: rgba(255, 249, 198, 1);
+    height: 100vh;
+    width: 99.9vw;
+}
+
+.pizza-bakgrund {
     background-color: rgba(255, 249, 198, 1);
     height: 300vh;
+    width: 99.9vw;
+}
+
+.grill-bakgrund {
+    background-color: rgba(255, 249, 198, 1);
+    height: 300vh;
+    width: 99.9vw;
+}
+
+.sallad-bakgrund {
+    background-color: rgba(255, 249, 198, 1);
+    height: 100vh;
+    width: 99.9vw;
+}
+
+.tillbehör-bakgrund {
+    background-color: rgba(255, 249, 198, 1);
+    height: 100vh;
     width: 99.9vw;
 }
 
@@ -379,7 +403,12 @@ button:hover {
 
 
 
-
+@media only screen and (max-width: 1636px) {
+    .gula-pizzerian {
+        font-size: 4rem;
+        width: 60vw;
+    }
+}
 
 
 
@@ -390,7 +419,7 @@ button:hover {
     }
 
     .gula-pizzerian {
-        font-size: 2rem;
+        font-size: 3rem;
         width: 60vw;
     }
 
@@ -400,9 +429,29 @@ button:hover {
         margin-right: 15%;
     }
 
-    /*    .nav-links {
-        margin-left: 33%;
-    } */
+    .pizza-meny {
+        height: 500vh;
+    }
+
+    .grill-meny {
+        height: 175vh;
+    }
+
+    .pizza-bakgrund {
+        height: 500vh;
+    }
+
+    .klass_rubrik {
+        width: 40vw;
+    }
+
+    .klass_pizzor {
+        width: 40vw;
+    }
+
+    .pizza_div {
+        width: 40vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
