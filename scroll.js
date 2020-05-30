@@ -39,7 +39,7 @@ hittaknapp.addEventListener('click', () => {
 lunchknapp.addEventListener('click', () => {
     jump('.dagens_lunch-meny', {
         duration: 1000,
-        offset: -85,
+        offset: -60,
     });
 })
 

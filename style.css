@@ -87,7 +87,7 @@ nav {
     position: fixed;
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -154,7 +154,7 @@ button:hover {
     align-items: center; */
 }
 
-.test-pris {
+.lunch-pris_div {
     display: flex;
     justify-content: flex-start;
     width: 38vw;
@@ -174,6 +174,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .lunch_erbjudande-text {
@@ -378,6 +379,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     
 }
 
@@ -391,6 +393,13 @@ button:hover {
 
 .kebab_namn {
     width: 17vw;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.kebab_pris {
+    width: 4vw;
     color: black;
     font-size: 1.3rem;
     font-weight: 500;
@@ -570,11 +579,116 @@ button:hover {
         margin-right: 0rem;
     }
 
+    .lunch_container {
+        height: 90vh;
+    }
+
+    .lunch_rubrik-text {
+        font-size: 3rem;
+    }
+
+    .lunch-pris_div {
+        width: 94vw;
+    }
+
+    .lunch-pris {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .lunch_erbjudande {
+        height: 22vh;
+    }
+
+    .klass_rubrik {
+        width: 90vw;
+    }
+
+    .klass_pizzor {
+        width: 90vw;
+    }
+
+/*     .pizza-meny {
+        height: 500vh;
+    }
+
+    .pizza-bakgrund {
+        height: 500vh;
+    } */
+
+    .pizza_div {
+        width: 90vw;
+        border-bottom: 1px solid rgb(255, 70, 70);
+    }
+
+    .pizza_nummer {
+        width: 5vw;
+    }
+
+    .pizza_namn {
+        width: 30vw;
+    }
+
+    .pizza_ingrediens {
+        width: 62vw;
+    }
+
+    .grill-meny {
+        height: 115vh;
+    }
+
+    .grill-bakgrund {
+        height: 115vh;
+    }
+
+    .hamburgare_rubrik {
+        width: 90vw;
+        height: 6vh;
+    }
+
+    .burgare-container{
+        width: 90vw;
+    }
+
+    .vegburgare_rubrik {
+        width: 90vw;
+    }
+
+    .falafel_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .kebab_namn {
+        width: 55vw;
+    }
+
+    .kebab_pris {
+        width: 10vw;
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .sallad-meny {
+        height: 80vh;
+    }
+
+    .sallad-bakgrund {
+        height: 80vh;
+    }
+
 
     .footer {
-        height: 50vh;
+        height: 100vh;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .gula-information_rubrik{
+        margin: 0;
     }
 
     .oppet_tider {
