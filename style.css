@@ -22,7 +22,11 @@ nav {
     z-index: 2;
 }
 
-.gula-pizzerian_mobile {
+/* .gula-pizzerian_mobile {
+    display: none;
+} */
+
+.main_logo_mobile {
     display: none;
 }
 
@@ -51,12 +55,23 @@ nav {
     color: rgba(22, 22, 22, 1);
 }
 
-.gula-pizzerian {
+/* .gula-pizzerian {
     font-size: 5rem;
     font-weight: 900;
     color: rgb(255, 70, 70);
     text-align: center;
     cursor: pointer;
+} */
+
+.gula-pizzerian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main_logo{
+    display: flex;
 }
 
 .landingpage {
@@ -143,19 +158,11 @@ button:hover {
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 /* .lunch_rubrik {
     display: flex;
     justify-content: space-evenly;
     width: 41vw;
     align-items: center;
-=======
-/* .lunch_rubrik{
-    display: flex;
-    justify-content: space-evenly;
-    width: 41vw;
-    align-items: center; 
->>>>>>> e9f7ca5a299d5b4d7cfeb7acd3d945f7373e7d0f
 } */
 
 .lunch-pris_div {
@@ -543,6 +550,10 @@ button:hover {
         margin-left: 10%;
         margin-right: 10%;
     }
+    
+    .main_logo {
+        width: 32rem;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -562,7 +573,7 @@ button:hover {
         justify-content: space-between;
     }
 
-    .gula-pizzerian_mobile {
+  /*   .gula-pizzerian_mobile {
         display: flex;
         list-style: none;
         text-decoration: none;
@@ -570,6 +581,11 @@ button:hover {
         font-weight: 900;
         color: rgb(255, 70, 70);
         margin-left: 5%;
+    } */
+
+    .main_logo_mobile {
+        display: flex;
+        width: 25rem;
     }
 
     .gula-pizzerian {
@@ -634,6 +650,14 @@ button:hover {
 
     .klass_rubrik {
         width: 90vw;
+    }
+
+    .pizza-meny {
+        height: 500vh;
+    }
+
+    .pizza-bakgrund {
+        height: 500vh;
     }
 
     .klass_pizzor {
