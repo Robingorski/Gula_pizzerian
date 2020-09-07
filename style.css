@@ -143,11 +143,19 @@ button:hover {
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 /* .lunch_rubrik {
     display: flex;
     justify-content: space-evenly;
     width: 41vw;
     align-items: center;
+=======
+/* .lunch_rubrik{
+    display: flex;
+    justify-content: space-evenly;
+    width: 41vw;
+    align-items: center; 
+>>>>>>> e9f7ca5a299d5b4d7cfeb7acd3d945f7373e7d0f
 } */
 
 .lunch-pris_div {
@@ -695,7 +703,6 @@ button:hover {
     .sallad-bakgrund {
         height: 80vh;
     }
-
 
     .footer {
         height: 100vh;
