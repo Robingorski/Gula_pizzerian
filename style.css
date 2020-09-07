@@ -57,8 +57,6 @@ nav {
     color: rgb(255, 70, 70);
     text-align: center;
     cursor: pointer;
-    /*  transform: rotate(-10deg); */
-    /* ska transformen vara kvar eller vad tycker "vi"? */
 }
 
 .landingpage {
@@ -67,7 +65,6 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    /* background-color: white; */
 }
 
 .burger {
@@ -101,7 +98,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*  background-color: rgba(255, 198, 198, 1); */
     background-color: rgba(198, 219, 255, 1);
     border: none;
     text-align: center;
@@ -147,12 +143,12 @@ button:hover {
     flex-direction: column;
 }
 
-.lunch_rubrik{
-   /*  display: flex;
+/* .lunch_rubrik {
+    display: flex;
     justify-content: space-evenly;
     width: 41vw;
-    align-items: center; */
-}
+    align-items: center;
+} */
 
 .lunch-pris_div {
     display: flex;
@@ -182,7 +178,7 @@ button:hover {
     font-weight: 500;
 }
 
-.lunch_erbjudande-text_info{
+.lunch_erbjudande-text_info {
     font-size: 3rem;
     font-weight: 500;
     color: rgb(255, 70, 70);
@@ -192,8 +188,6 @@ button:hover {
 .pizza-meny {
     height: 300vh;
 }
-
-
 
 .pizza-bakgrund {
     background-color: rgba(255, 249, 198, 1);
@@ -270,7 +264,6 @@ button:hover {
 .pizza_namn {
     width: 17vw;
     color: black;
-   /*  margin-right: 2rem; */
     text-transform: capitalize;
     font-size: 1.3rem;
     font-weight: 500;
@@ -370,7 +363,7 @@ button:hover {
     flex-direction: column;
 }
 
-.hamburgare_pris{
+.hamburgare_pris {
     width: 17vw;
     color: black;
     font-size: 1.3rem;
@@ -380,7 +373,7 @@ button:hover {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    
+
 }
 
 .falafel_div {
@@ -437,33 +430,34 @@ button:hover {
 }
 
 .gula-information_text {
+    color: rgb(255, 70, 70);
     margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
 .gula-information_rubrik {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     text-decoration: underline;
     text-transform: uppercase;
+}
+
+.gula-information_rubrik-text {
+    font-size: 1.2rem;
 }
 
 .telefon {
     color: black;
 }
 
-
-
 .google_maps {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 
@@ -481,9 +475,10 @@ button:hover {
 }
 
 
+@media only screen and (max-width: 1300px)
 
-
-@media only screen and (max-width: 1300px) {
+/* Laptop size */
+    {
     nav {
         background-color: rgba(255, 249, 198, 1);
     }
@@ -499,16 +494,20 @@ button:hover {
         margin-right: 15%;
     }
 
-    .pizza-meny {
-        height: 500vh;
+    .lunch-pris_div {
+        width: 49vw;
     }
 
-    .grill-meny {
-        height: 175vh;
+    .pizza-meny {
+        height: 450vh;
     }
 
     .pizza-bakgrund {
-        height: 500vh;
+        height: 450vh;
+    }
+
+    .grill-meny {
+        height: 160vh;
     }
 
     .klass_rubrik {
@@ -524,7 +523,32 @@ button:hover {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1050px) {
+    .lunch-pris_div {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .menu-buttons {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .menu-buttons {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+
+/* normal phone size */
+    {
     nav {
         background-color: rgba(255, 249, 198, 1);
         justify-content: space-between;
@@ -608,14 +632,6 @@ button:hover {
         width: 90vw;
     }
 
-/*     .pizza-meny {
-        height: 500vh;
-    }
-
-    .pizza-bakgrund {
-        height: 500vh;
-    } */
-
     .pizza_div {
         width: 90vw;
         border-bottom: 1px solid rgb(255, 70, 70);
@@ -646,7 +662,7 @@ button:hover {
         height: 6vh;
     }
 
-    .burgare-container{
+    .burgare-container {
         width: 90vw;
     }
 
@@ -687,7 +703,7 @@ button:hover {
         justify-content: space-around;
     }
 
-    .gula-information_rubrik{
+    .gula-information_rubrik {
         margin: 0;
     }
 
@@ -695,6 +711,52 @@ button:hover {
         justify-content: center;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 320px)
+
+/* smaller mobile phone */
+    {
+    .lunch_rubrik-text {
+        font-size: 2rem;
+    }
+
+    .lunch-pris {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .lunch_erbjudande-text {
+        font-size: 2rem;
+    }
+
+    .lunch_erbjudande-text_info {
+        font-size: 2rem;
+    }
+
+    .pizza-meny {
+        height: 700vh;
+    }
+
+    .pizza-bakgrund {
+        height: 700vh;
+    }
+
+    .grill-meny {
+        height: 165vh;
+    }
+
+    .grill-bakgrund {
+        height: 165vh;
+    }
+
+    .sallad-meny {
+        height: 140vh;
+    }
+
+    .sallad-bakgrund {
+        height: 140vh;
     }
 }
 

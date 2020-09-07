@@ -53,7 +53,7 @@ pizzaknapp.addEventListener('click', () => {
 grillknapp.addEventListener('click', () => {
     jump('.grill-meny', {
         duration: 1000,
-        offset: -175,
+        offset: -150,
     });
 })
 
