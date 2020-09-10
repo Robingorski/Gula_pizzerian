@@ -70,7 +70,7 @@ nav {
     cursor: pointer;
 }
 
-.main_logo{
+.main_logo {
     display: flex;
 }
 
@@ -329,6 +329,17 @@ button:hover {
     background-color: #c6dbff;
 }
 
+.lasagne_rubrik {
+    width: 33vw;
+    height: 3vh;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(255, 70, 70);
+}
+
 .hamburgare_rubrik {
     width: 33vw;
     height: 5vh;
@@ -348,7 +359,17 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    color: white;
+    background-color: rgb(255, 70, 70);
+}
+
+.kebab_rubrik {
+    width: 33vw;
+    height: 3vh;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: rgb(255, 70, 70);
 }
@@ -514,27 +535,55 @@ button:hover {
     }
 
     .pizza-meny {
-        height: 450vh;
+        height: 385vh;
     }
 
     .pizza-bakgrund {
-        height: 450vh;
-    }
-
-    .grill-meny {
-        height: 160vh;
+        height: 385vh;
     }
 
     .klass_rubrik {
-        width: 40vw;
+        width: 63vw;
     }
+
+    .pizza_div {
+        width: 63vw;
+    }
+
+    .grill-meny {
+        height: 150vh;
+    }
+
+    .grill-bakgrund {
+        height: 150vh;
+    }
+
+    .hamburgare_rubrik {
+        height: 7vh;
+    }
+
+    .sallad-meny {
+        height: 75vh;
+    }
+
+    .sallad-bakgrund {
+        height: 75vh;
+    }
+
+    /*    .klass_rubrik {
+        width: 40vw;
+    } */
 
     .klass_pizzor {
         width: 40vw;
     }
 
-    .pizza_div {
+    /*    .pizza_div {
         width: 40vw;
+    } */
+
+    .gula-information_main_logo {
+        width: 20rem;
     }
 }
 
@@ -550,7 +599,7 @@ button:hover {
         margin-left: 10%;
         margin-right: 10%;
     }
-    
+
     .main_logo {
         width: 32rem;
     }
@@ -573,7 +622,7 @@ button:hover {
         justify-content: space-between;
     }
 
-  /*   .gula-pizzerian_mobile {
+    /*   .gula-pizzerian_mobile {
         display: flex;
         list-style: none;
         text-decoration: none;
