@@ -1,0 +1,23 @@
+{
+  "name": "gula_pizzerian",
+  "version": "1.0.0",
+  "description": "webpage for a local pizza restaurant",
+  "main": "app.js",
+  "dependencies": {
+    "jump.js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robingorski/Gula_pizzerian.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robingorski/Gula_pizzerian/issues"
+  },
+  "homepage": "https://github.com/Robingorski/Gula_pizzerian#readme"
+}
