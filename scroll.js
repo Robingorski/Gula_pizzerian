@@ -1,4 +1,6 @@
 import jump from './node_modules/jump.js/dist/jump.module.js';
+/* import jump from 'jump.js' */
+
 
 var menyknapp = document.getElementById('menyknapp');
 var gulapizzeria = document.getElementById('top-page');
