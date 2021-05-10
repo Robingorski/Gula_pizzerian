@@ -2,7 +2,7 @@
   "name": "gula_pizzerian",
   "version": "1.0.0",
   "description": "webpage for a local pizza restaurant",
-  "main": "app.js", 
+  "main": "scroll.js", 
   "dependencies": {
     "jump.js": "^1.0.2"
   },
