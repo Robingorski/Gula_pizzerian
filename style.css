@@ -139,6 +139,8 @@ button:hover {
 
 } */
 
+
+
 /* Section Dagens Lunch */
 .dagens_lunch-meny {
     height: 100vh;
@@ -448,6 +450,9 @@ button:hover {
 .tillbehör-meny {
     height: 100vh;
     background-color: #ffc6d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -736,6 +741,10 @@ button:hover {
 
     .grill-bakgrund {
         height: 115vh;
+    }
+
+    .lasagne_rubrik {
+        width: 90vw;
     }
 
     .hamburgare_rubrik {
